@@ -126,7 +126,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <ImageBackground
-          style={{width: '100%', height: '100%'}}
+          style={styles.bgImage}
           source={require('./images/background.png')}>
           <View style={styles.settingView}>
             <TouchableOpacity onPress={() => this.toggleSettingModal()}>
@@ -174,6 +174,7 @@ export default class App extends React.Component {
 }
 
 const styles = StyleSheet.create({
+  bgImage: {width: '100%', height: '100%'},
   container: {
     flex: 1,
   },
