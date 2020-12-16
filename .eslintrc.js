@@ -5,7 +5,7 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        endOfrLine: 'auto',
+        endOfLine: 'auto',
       }
     ],
   },
